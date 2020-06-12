@@ -1,5 +1,8 @@
 #include<stdio.h>
+#include<string.h>
 main()
 {
-	printf("Hello World");
+	char user[100];
+	scanf("%s", user);
+	printf("Hello %s", user);
 }
